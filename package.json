@@ -1,0 +1,21 @@
+{
+  "name": "smartcls",
+  "version": "1.0.1",
+  "description": "continuation-local-storage",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "devDependencies": {
+    "smartstring": "^2.0.27",
+    "tapbundle": "^1.1.8"
+  },
+  "dependencies": {
+    "@types/continuation-local-storage": "^3.2.1",
+    "continuation-local-storage": "^3.2.0",
+    "typings-global": "^1.0.20"
+  }
+}
