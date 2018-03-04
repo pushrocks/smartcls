@@ -1,3 +1,3 @@
-import * as plugins from './smartcls.plugins'
+import * as plugins from './smartcls.plugins';
 
-export * from 'continuation-local-storage'
+export * from 'continuation-local-storage';

@@ -10,12 +10,12 @@
     "test": "(npmts)"
   },
   "devDependencies": {
-    "smartstring": "^2.0.27",
-    "tapbundle": "^1.1.8"
+    "@types/node": "^9.4.6",
+    "smartstring": "^2.0.28",
+    "tapbundle": "^2.0.0"
   },
   "dependencies": {
     "@types/continuation-local-storage": "^3.2.1",
-    "continuation-local-storage": "^3.2.0",
-    "typings-global": "^1.0.20"
+    "continuation-local-storage": "^3.2.1"
   }
 }
