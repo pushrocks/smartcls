@@ -1,13 +1,16 @@
 # smartcls
+
 continuation-local-storage
 
 ## Availabililty
+
 [![npm](https://pushrocks.gitlab.io/assets/repo-button-npm.svg)](https://www.npmjs.com/package/smartcls)
 [![git](https://pushrocks.gitlab.io/assets/repo-button-git.svg)](https://GitLab.com/pushrocks/smartcls)
 [![git](https://pushrocks.gitlab.io/assets/repo-button-mirror.svg)](https://github.com/pushrocks/smartcls)
 [![docs](https://pushrocks.gitlab.io/assets/repo-button-docs.svg)](https://pushrocks.gitlab.io/smartcls/)
 
 ## Status for master
+
 [![build status](https://GitLab.com/pushrocks/smartcls/badges/master/build.svg)](https://GitLab.com/pushrocks/smartcls/commits/master)
 [![coverage report](https://GitLab.com/pushrocks/smartcls/badges/master/coverage.svg)](https://GitLab.com/pushrocks/smartcls/commits/master)
 [![npm downloads per month](https://img.shields.io/npm/dm/smartcls.svg)](https://www.npmjs.com/package/smartcls)
@@ -20,11 +23,12 @@ continuation-local-storage
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## Usage
+
 Use TypeScript for best in class instellisense.
 
 For further information read the linked docs at the top of this README.
 
->  MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
-| By using this npm module you agree to our [privacy policy](https://lossless.gmbH/privacy.html)
+> MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
+> | By using this npm module you agree to our [privacy policy](https://lossless.gmbH/privacy.html)
 
 [![repo-footer](https://pushrocks.gitlab.io/assets/repo-footer.svg)](https://push.rocks)
