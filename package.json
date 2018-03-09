@@ -10,7 +10,7 @@
     "test": "(npmts)"
   },
   "devDependencies": {
-    "@types/node": "^9.4.6",
+    "@types/node": "^9.4.7",
     "smartstring": "^2.0.28",
     "tapbundle": "^2.0.0"
   },
