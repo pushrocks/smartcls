@@ -1,3 +1,4 @@
-import * as cls from 'continuation-local-storage';
+// native scope
+import { AsyncLocalStorage } from 'async_hooks';
 
-export { cls };
+export { AsyncLocalStorage };

@@ -1,7 +1,16 @@
 {
   "npmci": {
-    "npmGlobalTools": [
-      "npmts"
-    ]
+    "npmGlobalTools": []
+  },
+  "gitzone": {
+    "projectType": "npm",
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartcls",
+      "shortDescription": "continuation-local-storage using native AsyncLocalStorage",
+      "npmPackagename": "@pushrocks/smartcls",
+      "license": "MIT"
+    }
   }
 }

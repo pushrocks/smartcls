@@ -1,21 +1,39 @@
 {
-  "name": "smartcls",
+  "name": "@pushrocks/smartcls",
   "version": "1.0.6",
-  "description": "continuation-local-storage",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "description": "continuation-local-storage using native AsyncLocalStorage",
+  "main": "dist_ts/index.js",
+  "typings": "dist_ts/index.d.ts",
   "author": "Lossless GmbH",
   "license": "MIT",
   "scripts": {
-    "test": "(npmts)"
+    "test": "tstest test/",
+    "build": "tsbuild --web"
   },
   "devDependencies": {
-    "@types/node": "^9.4.7",
-    "smartstring": "^2.0.28",
-    "tapbundle": "^2.0.0"
+    "@gitzone/tsbuild": "^2.1.24",
+    "@gitzone/tsbundle": "^1.0.72",
+    "@gitzone/tstest": "^1.0.43",
+    "@pushrocks/tapbundle": "^3.2.9",
+    "@types/node": "^14.0.23",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0"
   },
-  "dependencies": {
-    "@types/continuation-local-storage": "^3.2.1",
-    "continuation-local-storage": "^3.2.1"
-  }
+  "dependencies": {},
+  "private": false,
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "files": [
+    "ts/**/*",
+    "ts_web/**/*",
+    "dist/**/*",
+    "dist_*/**/*",
+    "dist_ts/**/*",
+    "dist_ts_web/**/*",
+    "assets/**/*",
+    "cli.js",
+    "npmextra.json",
+    "readme.md"
+  ]
 }

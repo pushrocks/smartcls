@@ -1,3 +1,18 @@
 import * as plugins from './smartcls.plugins';
 
-export * from 'continuation-local-storage';
+export class SmartCls {
+  private asyncLocalStorage = new plugins.AsyncLocalStorage();
+  public run(runFunc: () => any) {
+    this.asyncLocalStorage.run({}, runFunc);
+  }
+
+  public set(keyArg: string, valueArg: any) {
+    const store: any = this.asyncLocalStorage.getStore();
+    store[keyArg] = valueArg;
+  }
+
+  public get(keyArg: string) {
+    const store: any = this.asyncLocalStorage.getStore();
+    return store[keyArg];
+  }
+}
