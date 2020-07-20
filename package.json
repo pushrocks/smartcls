@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartcls",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "continuation-local-storage using native AsyncLocalStorage",
   "main": "dist_ts/index.js",
   "typings": "dist_ts/index.d.ts",
