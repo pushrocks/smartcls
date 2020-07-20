@@ -13,6 +13,10 @@ export class SmartCls {
 
   public get(keyArg: string) {
     const store: any = this.asyncLocalStorage.getStore();
-    return store[keyArg];
+    if (store) {
+      return store[keyArg];
+    } else {
+      return undefined;
+    }
   }
 }
